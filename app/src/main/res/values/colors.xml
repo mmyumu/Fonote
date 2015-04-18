@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#37A820</color>
+    <color name="primary_dark">#334433</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="main">#37A820</color>
+    <color name="separator">#334433</color>
+    <color name="schedule_match_background">@color/background_holo_light</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="header_match_decorator">#686868</color>
+    <color name="schedule_match_divider">#CCCCCC</color>
+    <color name="schedule_match_date">#AAAAAA</color>
+    <color name="schedule_match_team">#727272</color>
+
+</resources>

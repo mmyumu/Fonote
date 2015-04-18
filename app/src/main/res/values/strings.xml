@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fonote</string>
+    <string name="hello_world">Hello abe!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new">New match</string>
+    <string name="title_activity_main">Fonote</string>
+    <string name="title_activity_new_match">New match</string>
+    <string name="title_activity_details_match">Details</string>
+    <string name="edit_home">Home</string>
+    <string name="edit_away">Away</string>
+    <string name="text_on">On</string>
+    <string name="action_done">Done</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="match_saved">Match saved</string>
+
+</resources>

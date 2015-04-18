@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.mmyumu.fonote">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewMatchActivity"
+            android:label="@string/title_activity_new_match"
+            android:parentActivityName="net.mmyumu.fonote.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.mmyumu.fonote.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DetailsMatchActivity"
+            android:label="@string/title_activity_details_match"
+            android:parentActivityName="net.mmyumu.fonote.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.mmyumu.fonote.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="net.mmyumu.fonote.contentproviders.FonoteContentProvider"
+            android:authorities="net.mmyumu.fonote.content.provider"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="30dp"
+    android:layout_marginStart="30dp" >
+
+    <View
+        android:id="@+id/schedule_match_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/schedule_match_divider" />
+
+    <include
+        android:id="@+id/schedule_match_include"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/schedule_match_divider"
+        layout="@layout/schedule_match" />
+
+</RelativeLayout>
